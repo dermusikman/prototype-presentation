@@ -24,10 +24,12 @@ p, .less-brief {
 
 ul {
   float: left;
+  margin-left: 2em;
 }
 
 ul.mock-table li {
-  max-width: 5em;
+  max-width: 7em;
+  margin-bottom: 0.7em;
 }
 
 ul.mock-table :first-child {
