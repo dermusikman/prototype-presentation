@@ -3,56 +3,49 @@
   <head>
     <title>Organizing Programs Without Classes</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="StyleSheet" href="style.css" type="text/css" media="all">
   </head>
   <body>
     <script type="text/javascript" src="impress.js"></script>
 
     <div id="impress">
-      <div class="step" data-x="-4000" data-y="0" data-scale="2" align="center">
+      <div class="step centered" data-x="-4000" data-y="0" data-scale="2">
         <h1>Organizing Programs Without Classes</h1>
-        <br></br>
+        <br>
         or
-        <br></br>
-        <h2>Anything Classes Can Do, Prototypes Can Do Better</h2>
+        <br>
+        <h2>Anything Classes Can Do,<br>Prototypes Can Do Better</h2>
       </div>
 
-      <div class="step" data-x="-4000" data-y="1200" align="center">
+      <div class="step centered" data-x="-4000" data-y="1200">
         or
-        <br></br>
         <h1>Get Your Head Out of Your Class!</h1>
-        <br></br>
-        <img src="red.jpg">
+        <img src="red-transparent.png">
       </div>
 
       <div class="step" data-x="0" data-y="0" data-z="-500">
         <h3>Prototypes, anyone?</h3>
-        <ul>
+        <ul class="brief">
           <li>Javascript</li>
           <li>Lua</li>
+          <li>Neko</li>
           <li>...others...</li>
         </ul>
       </div>
 
-      <div class="step" data-x="400" data-y="400" data-z="0">
+      <div class="step" data-x="400" data-y="400" data-z="-1000">
         <h3>Sharing</h3>
-        <table>
-          <tr class="top">
-            <td>Classes</td>
-            <td>Objects</td>
-          </tr>
-          <tr>
-            <td>Defined structure</td>
-            <td>Malleable, flexible structure</td>
-          </tr>
-          <tr>
-            <td>Behavior and data inseparable</td>
-            <td>Behavior (traits) and data (prototypes) modular</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Parent objects (re-)assignable at runtime</td>
-          </tr>
-        </table>
+        <ul class="mock-table">
+          <li>Class</li>
+          <li>Defined structure</li>
+          <li>Behavior and data inseparable</li>
+        </ul>
+        <ul class="mock-table">
+          <li>Object</li>
+          <li>Malleable, flexible structure</li>
+          <li>Behavior (traits) and data (prototypes) modular</li>
+          <li>Parent objects (re-)assignable at runtime</li>
+        </ul>
       </div>
 
       <div class="step" data-x="800" data-y="800" data-z="-200">
@@ -61,9 +54,9 @@
         <p>Nuanced (multiple!) prototype inheritance is consistent, more readily reflects natural models. Objects are mutable in runtime.</p>
       </div>
 
-      <div class="step" data-x="800" data-y="0" data-z="0">
+      <div class="step centered" data-x="800" data-y="0" data-z="0">
         <h3>Encapsulation</h3>
-        <p>Prototypes do it, too. (Depending on implementation!)</p>
+        Prototypes do it, too.<br>(Depending on implementation!)>
       </div>
 
       <div class="step" data-x="1200" data-y="400" data-z="0">
@@ -72,15 +65,31 @@
         <p>Littering global space</p>
       </div>
 
-      <div class="step" data-x="1400" data-y="600" data-z="200" data-rotate-x="270">
+      <div class="step" data-x="1400" data-y="900" data-z="200" data-rotate-x="270">
         <h1>OBJECTS</h1>
         <p>The object is the namespace</p>
         <p>Identifying an object identifies its path, relationship to parents and siblings</p>
         <p>Root object effectively is global space</p>
       </div>
 
-      <div class="step" data-x="1400" data-y="600" data-z="200" data-rotate-x="180">
+      <div class="step centered" data-x="1400" data-y="600" data-z="200" data-rotate-x="180">
         (Classes need additional, fragile structures to permit the same functionality.)
+      </div>
+
+      <div class="step" data-x="1800" data-y="900" data-z="0" data-rotate-x="0" data-rotate-y="0">
+        <h2>Takeaways</h2>
+        <ul class="less-brief">
+          <li>How are you using JavaScript?</li>
+          <li>Add Lua/Neko/other to your toolbelt</li>
+          <li>How might you decouple your behaviors from your data?</li>
+          <li>How flexible are your modules/namespaces?</li>
+          <li>How can metaprogramming better serve you?</li>
+        </ul>
+      </div>
+
+      <div class="step centered" data-x="2200" data-y="2200" data-z="-1100">
+        <h1>Thanks!</h1>
+        <img src="red2-transparent.png">
       </div>
     </div>
 

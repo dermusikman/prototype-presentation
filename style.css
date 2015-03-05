@@ -1,0 +1,38 @@
+body {
+/*  original background: #9b06d2 */
+  background: #2b0642 url(gradient-bg-purple.png) no-repeat center center;
+  color: #2b0642;
+  font-size: 2em;
+}
+
+div {
+  min-width: 750px;
+  width: 50%;
+}
+
+h1, h2, h3, .centered {
+  text-align: center;
+}
+
+.brief {
+  margin-left: 7em;
+}
+
+p, .less-brief {
+  margin-left: 3em;
+}
+
+ul {
+  float: left;
+}
+
+ul.mock-table li {
+  max-width: 5em;
+}
+
+ul.mock-table :first-child {
+  text-decoration: underline;
+  list-style-type: none;
+  margin-left: 2em;
+  margin-bottom: 0.5em;
+}
